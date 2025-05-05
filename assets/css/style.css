@@ -485,9 +485,14 @@ p {
   margin-right: 20px;
 }
 
-.hero-content .list-social li i {
-  color: #fff;
+.hero-content .list-social i {
+  color: black;
+  transition: color 0.3s ease;
   font-size: 15px;
+}
+
+.list-social a:hover i {
+  color: #555; /* Slightly darker on hover, or use any color you like */
 }
 
 /*--------------------------------------------------------------
